@@ -1,0 +1,74 @@
+.speech {
+    font-family: 'Comforta';
+    font-size: 20px;
+    color: black;
+}
+
+.direction {
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
+}
+
+.direction:hover {
+    color: rgb(128, 17, 17);
+    background-color: rgb(215, 250, 182);
+}
+
+.name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: black;
+}
+.zama{
+    color: rgb(202, 255, 9);
+}
+.OHANO
+{
+    color: rgb(255, 0, 179);
+}
+
+.NIJO
+{
+    color: rgb(4, 236, 205);
+
+}
+.zama:hover{
+    color: rgb(9, 206, 255);
+    text-shadow:3px 3px 10px ;
+}
+.OHANO:hover
+{
+    color: rgb(236, 206, 31);
+    text-shadow:3px 3px 10px ;
+}
+
+.NIJO:hover
+{
+    color: rgb(228, 20, 200);
+    text-shadow:3px 3px 10px ;
+
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid brown;
+     color:brown;
+     text-align: center;  
+}
+
+td,th{
+    padding: 10px;
+    border: 1px black solid;
+}
+
+tr:nth-child(odd){
+    background-color: beige;
+}
+
+.navi{
+    display: flex;
+    background: rgb(184, 184, 184);
+    flex-direction: row;
+    align-items: center;
+    gap:40px;
+}
